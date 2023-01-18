@@ -1,0 +1,16 @@
+id: QmVX95ST1v4sCUdySbA3XkoteNyYDS1Jns6H7T7eH81Qpe
+description: Function to get the web socket URL..
+tags: []
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /ws/url
+domains:
+    - GeneratedDomain
+includes:
+    - /functions/Get_SocketURL.go
+execution:
+    timeout: 10s
+    memory: 105MB
+    call: getsocketurl
