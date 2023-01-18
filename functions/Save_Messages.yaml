@@ -1,0 +1,16 @@
+id: QmXrMMvZfe4qSKWKMYtHY3wCotF3YMgf5XYy2P4Y6bZ75r
+description: ""
+tags: []
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /message
+domains:
+    - GeneratedDomain
+includes:
+    - /functions/Save_Messages.go
+execution:
+    timeout: 10s
+    memory: 10GB
+    call: saveMessage
