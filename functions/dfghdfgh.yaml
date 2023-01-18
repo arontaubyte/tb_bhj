@@ -1,0 +1,16 @@
+id: QmbbZY2XbWds8xPtvHzbaYDjWASTidU7wWHR9x7kyNCnkD
+description: Returns pong to a ping over http
+tags: []
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /ping
+domains:
+    - GeneratedDomain
+includes:
+    - /functions/dfghdfgh.go
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: ping
