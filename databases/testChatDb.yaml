@@ -1,0 +1,13 @@
+id: QmWRtNzX3RfZhNwHeTtoYgZQ2PY42XWSFQjPA1TDoN4mz9
+description: ""
+tags: []
+path: /chat
+match: asd
+useRegex: false
+access:
+    network: all
+replicas:
+    min: 10
+    max: 100
+storage:
+    size: 10MB
